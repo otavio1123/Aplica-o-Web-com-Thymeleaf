@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    background-color: #f5f4f0;
+    color: #1b1b1b;
+}
+
+.navbar {
+    padding: 24px 0;
+}
+
+.navbar-brand {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.navbar-brand span {
+    color: #0057ff;
+}
+
+.nav-link {
+    font-weight: 500;
+    margin-left: 20px;
+    color: #1b1b1b;
+}
+
+.nav-link:hover {
+    color: #0057ff;
+}
+
+.hero {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.destaque {
+    color: #0057ff;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.hero h1 {
+    font-size: 64px;
+    font-weight: 700;
+    max-width: 750px;
+}
+
+.hero h2 {
+    font-size: 28px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.descricao {
+    max-width: 600px;
+    font-size: 18px;
+    color: #555;
+    margin-top: 25px;
+}
+
+.botoes {
+    display: flex;
+    gap: 12px;
+    margin-top: 30px;
+}
+
+.btn {
+    padding: 12px 22px;
+    border-radius: 6px;
+}
+
+.btn-primary {
+    background-color: #0057ff;
+}
+
+@media (max-width: 768px) {
+
+    .hero h1 {
+        font-size: 42px;
+    }
+
+    .hero h2 {
+        font-size: 23px;
+    }
+
+    .botoes {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+.secao {
+    padding: 80px 0;
+}
+
+.secao h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.secao p {
+    max-width: 750px;
+    color: #555;
+    font-size: 17px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.card-title {
+    font-size: 22px;
+    font-weight: 700;
+}
